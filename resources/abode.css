@@ -42,6 +42,8 @@ main {
 /* Hobbies */
 #hobbies div {
   background-color: linen;
+  padding: 20px 50px;
+  margin: 20px;
 }
 
 /* Footer */
