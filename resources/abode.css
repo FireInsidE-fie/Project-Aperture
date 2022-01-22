@@ -1,5 +1,37 @@
 /* ABODE PAGE CSS */
 
 html {
-  color: blue;
+  font-family: "Chakra Petch", arial, sans-serif;
+  font-size: 20px;
+}
+
+body {
+  margin: 0px;
+  display: grid;
+  grid-template: 200px 1fr 100px / 10% 1fr 10%;
+  background-color: lightgrey;
+}
+
+/* Header */
+header {
+  background-color: lightpink;
+  grid-area: 1 / 1 / span 1 / span 3;
+}
+
+h1 {
+  margin: 50% 0px;
+  position: absolute;
+}
+
+/* Main */
+main {
+  grid-area: 2 / 2;
+  background-color: azure;
+  text-align: center;  
+}
+
+/* Footer */
+footer {
+  grid-area: 3 / 2;
+  background-color: gray;
 }
