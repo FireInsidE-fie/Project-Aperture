@@ -1,5 +1,53 @@
 /* ABODE PAGE CSS */
 
 html {
-  color: blue;
+  font-family: "Chakra Petch", arial, sans-serif;
+  font-size: 20px;
+}
+
+body {
+  margin: 0px;
+  display: grid;
+  grid-template: 200px 1fr 100px / 10% 1fr 10%;
+  background-color: lightgrey;
+}
+
+/* Header */
+header {
+  background-color: lightpink;
+  grid-area: 1 / 2;
+}
+
+h1 {
+  margin: 50px 0 0 20%;
+  position: absolute;
+}
+
+ul {
+  position: absolute;
+  right: 50px;
+}
+
+li {
+  list-style: none;
+}
+
+/* Main */
+main {
+  grid-area: 2 / 2;
+  background-color: azure;
+  text-align: center;  
+}
+
+/* Hobbies */
+#hobbies div {
+  background-color: linen;
+  padding: 20px 50px;
+  margin: 20px;
+}
+
+/* Footer */
+footer {
+  grid-area: 3 / 2;
+  background-color: gray;
 }
