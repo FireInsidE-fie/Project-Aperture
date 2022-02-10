@@ -1,3 +1,7 @@
 html {
   font-family: 'Chakra Petch', arial, sans-serif;
 }
+
+p {
+  max-width: 90%;
+}
