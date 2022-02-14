@@ -1,12 +1,19 @@
 html {
   font-size: 24px;
+  display: grid;
+  grid-template: 1fr / 10% 1fr 10%;
 }
 
 body {
   font-family: 'Chakra Petch', arial, sans-serif;
   margin: 0;
+  grid-area: 1 / 2;
 }
 
 p {
   max-width: 90%;
+}
+
+ul {
+  list-style: none;
 }
