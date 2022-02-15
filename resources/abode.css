@@ -10,7 +10,7 @@ body {
   margin: 0;
   grid-area: 1 / 2;
   background-color: white;
-  padding: 0px 20px;
+  padding: 0px 30px;
 }
 
 p {
@@ -23,19 +23,16 @@ ul {
 }
 
 /* Header */ 
-header {
-  margin: 20px 0px;
-}
 
 h1 {
-  display: inline;
+  display: inline-block;
+  margin: 20px 0px 0px 0px;
 }
 
 header a {
   float: right;
   position: relative;
-  top: 15px;
-  right: 15px;
+  top: 30px;
 }
 
 /* Skills */
