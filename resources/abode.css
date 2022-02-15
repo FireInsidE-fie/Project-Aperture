@@ -21,6 +21,12 @@ ul {
   list-style: none;
 }
 
+/* Header */ 
+h1 {
+  display: inline;
+  width: 100px;
+}
+
 /* Skills */
 
 #skills ul {
