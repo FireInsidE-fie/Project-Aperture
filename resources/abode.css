@@ -19,12 +19,23 @@ p {
 
 ul {
   list-style: none;
+  line-height: 1.5;
 }
 
 /* Header */ 
+header {
+  margin: 20px 0px;
+}
+
 h1 {
   display: inline;
-  width: 100px;
+}
+
+header a {
+  float: right;
+  position: relative;
+  top: 15px;
+  right: 15px;
 }
 
 /* Skills */
