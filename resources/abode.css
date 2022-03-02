@@ -35,6 +35,21 @@ header a {
   top: 30px;
 }
 
+/* Links */
+#links {
+  display: ;
+  position: absolute;
+  right: 12%;
+  border: 1px gray solid;
+  padding: 10px;
+  background-color: white;
+}
+
+#links * {
+  margin: 0;
+  padding: 0;
+}
+
 /* Skills */
 
 #skills ul {
