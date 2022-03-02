@@ -31,7 +31,7 @@ h1 {
 
 /* Links */
 #links {
-  display: ;
+  display: none;
   position: absolute;
   right: 12%;
   border: 1px gray solid;
@@ -58,4 +58,7 @@ h1 {
 /* Footer */
 footer {
   margin-bottom: 20px;
+  background-color: gray;
+  padding: 20px;
+  margin: 0;
 }
