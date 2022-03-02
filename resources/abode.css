@@ -29,12 +29,6 @@ h1 {
   margin: 20px 0px 0px 0px;
 }
 
-header a {
-  float: right;
-  position: relative;
-  top: 30px;
-}
-
 /* Links */
 #links {
   display: ;
@@ -43,11 +37,16 @@ header a {
   border: 1px gray solid;
   padding: 10px;
   background-color: white;
+  width: 600px;
 }
 
 #links * {
   margin: 0;
   padding: 0;
+}
+
+#links li {
+  display: block;
 }
 
 /* Skills */
