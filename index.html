@@ -14,11 +14,11 @@
         <input id="menu-toggle" type="checkbox" \>
       </label>
 
-      <script src="./links.js">
+      <script>
         const linksElement = document.getElementById('links');
         const hamburgerMenu = document.getElementById('menu-toggle');
 
-        window.alert(`${hamburgerMenu.checked}`);
+        window.alert(hamburgerMenu.checked == true);
 
         if (hamburgerMenu.checked) {
           window.alert("Heck yes");
