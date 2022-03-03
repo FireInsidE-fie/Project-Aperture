@@ -29,7 +29,13 @@ h1 {
   margin: 20px 0px 0px 0px;
 }
 
+/* Hamburger toggler */
+#menu-toggle {
+  display: inline;
+}
+
 /* Links */
+
 #links {
   display: none;
   position: absolute;
@@ -56,6 +62,7 @@ h1 {
 }
 
 /* Footer */
+
 footer {
   margin-bottom: 20px;
   background-color: gray;
