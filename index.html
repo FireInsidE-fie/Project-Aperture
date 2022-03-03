@@ -10,9 +10,16 @@
     <header>
       <h1>FIE's abode</h1>
 
-      <input id="menu-toggle" type="checkbox" />
+      <input id="menu-toggle" type="checkbox" \>
       <label for="menu-toggle"></label>
-      <script src="./links.js"></script>
+      <script src="./links.js">
+        const linksElement = document.getElementById('links');
+        const hamburgerMenu = document.getElementById('menu-toggle');
+
+        if (hamburgerMenu.checked) {
+          window.alert("Heck yes");
+        }
+      </script>
 
       <div id="links">
         <ul>
