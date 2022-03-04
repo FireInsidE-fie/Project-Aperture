@@ -14,15 +14,6 @@
         <input id="menu-toggle" type="checkbox" onchange="displayLinks()">
       </label>
 
-      <script>
-        const links = document.getElementById("links");
-
-        function displayLinks() {
-          console.log(links.style.display);
-          links.style.display = show;
-        }
-      </script>
-
       <div id="links">
         <ul>
           <h2>External links</h2>
@@ -87,6 +78,15 @@
         </ul>
       </div>
     </main>
+
+    <!-- Checkbox script -->
+    <script>
+      const links = document.getElementById("links");
+
+      function displayLinks() {
+        links.style = "display: inline;  position: absolute; right: 15%; top: 50px;";
+      }
+    </script>
 
     <footer>
       ~fie | Faille. Studios | Etan Stettler
