@@ -11,14 +11,15 @@
       <h1>FIE's abode</h1>
 
       <label for="menu-toggle">
-        <input id="menu-toggle" type="checkbox" checked="true"  onchange="displayLinks(this)">
+        <input id="menu-toggle" type="checkbox" onchange="displayLinks()">
       </label>
 
       <script>
-        function displayLinks(checkBox) {
-          if (checkBox.checked) {
-            window.alert("Heck yes");
-          }
+        const links = document.getElementById("links");
+
+        function displayLinks() {
+          console.log(links.style.display);
+          links.style.display = show;
         }
       </script>
 
