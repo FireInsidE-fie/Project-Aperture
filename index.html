@@ -84,7 +84,13 @@
       const links = document.getElementById("links");
 
       function displayLinks() {
-        links.style = "display: inline;  position: absolute; right: 15%; top: 50px;";
+        let linksStyle = getComputedStyle(links);
+
+        if (linksStyle.display === "none") {
+          links.style = "display: show; position: absolute; right: 12%; border: 1px gray solid; padding: 10px; background-color: white; width: 600px;";
+        } else {
+          links.style = "display: hide; position: absolute; right: 12%; border: 1px gray solid; padding: 10px; background-color: white; width: 600px;";
+        }
       }
     </script>
 
