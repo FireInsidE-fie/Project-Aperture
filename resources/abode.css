@@ -1,7 +1,7 @@
 html {
   font-size: 24px;
   display: grid;
-  grid-template: 1fr / 10% 1fr 10%;
+  grid-template: 1fr / 15% 1fr 15%;
   background-color: darkgrey;
 }
 
@@ -10,7 +10,7 @@ body {
   margin: 0;
   grid-area: 1 / 2;
   background-color: white;
-  padding: 0px 10%;
+  padding: 0px 5%;
 }
 
 p {
@@ -54,7 +54,8 @@ h1 {
 
 /* Skills */
 
-#skills ul {
+#skills ul,
+#working-on ul {
   list-style: inside;
 }
 
