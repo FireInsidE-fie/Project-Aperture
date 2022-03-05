@@ -10,7 +10,7 @@ body {
   margin: 0;
   grid-area: 1 / 2;
   background-color: white;
-  padding: 0px 30px;
+  padding: 0px 10%;
 }
 
 p {
@@ -29,24 +29,18 @@ h1 {
   margin: 20px 0px 0px 0px;
 }
 
-/* Hamburger toggler */
+/* Links */
+
 #menu-toggle {
   display: inline;
   position: absolute;
-  right: 15%;
+  right: 25%;
   top: 50px;
 }
 
-/* Links */
-
 #links {
   display: none;
-  position: absolute;
-  right: 12%;
-  border: 1px gray solid;
-  padding: 10px;
-  background-color: white;
-  width: 600px;
+  /* Remaining style is in the hamburger script */
 }
 
 #links * {
