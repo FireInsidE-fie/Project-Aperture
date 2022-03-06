@@ -14,7 +14,7 @@
         <input id="menu-toggle" type="checkbox" onchange="displayLinks()">
         <label for="menu-toggle"></label>  
       </div>
-      
+
       <div id="links">
         <ul>
           <h2>External links</h2>
@@ -88,7 +88,7 @@
         let linksStyle = getComputedStyle(links);
 
         if (linksStyle.display === "none") {
-          links.style = "display: block; position: absolute; right: 25%; border: 1px gray solid; padding: 10px; background-color: white; width: 600px;";
+          links.style = "display: block; position: absolute; right: 25%; border: 1px gray solid; padding: 10px; background-color: #f3f3f3ff; width: 600px;";
         } else {
           links.style = "display: none;";
         }
