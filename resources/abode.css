@@ -1,7 +1,7 @@
 html {
   font-size: 24px;
   display: grid;
-  grid-template: 1fr / 15% 1fr 15%;
+  grid-template: 1fr / 10% 1fr 10%;
   background-color: darkgrey;
 }
 
@@ -13,8 +13,8 @@ body {
   padding: 0px 5%;
 }
 
-p {
-  max-width: 90%;
+p,
+li {
   text-align: justify;
 }
 
