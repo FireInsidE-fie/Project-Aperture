@@ -12,3 +12,12 @@ body {
   background-color: white;
   padding: 0px 5%;
 }
+
+h1 {
+  display: inline;
+  margin: 20px 0px;
+}
+
+#go-back-link {
+  float: right;
+}
