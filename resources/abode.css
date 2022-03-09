@@ -30,14 +30,16 @@ h1 {
   margin: 20px 0px 0px 0px;
 }
 
-/* Links */
+/* Links toggle */
 
 #menu-toggle {
-  display: inline;
   position: absolute;
   right: 15%;
   top: 45px;
+  opacity: 0;
 }
+
+/* Links */
 
 #links {
   display: none;
