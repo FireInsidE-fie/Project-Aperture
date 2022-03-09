@@ -14,10 +14,22 @@ body {
 }
 
 h1 {
-  display: inline;
-  margin: 20px 0px;
+  display: inline-block;
+  margin: 0px;
+  line-height: 2;
 }
 
 #go-back-link {
   float: right;
+  position: absolute;
+  right: 15%;
+  top: 45px;
+}
+
+footer {
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: gray;
+  padding: 20px;
+  margin: 0;
 }
