@@ -35,7 +35,7 @@ h1 {
 #menu-toggle {
   position: absolute;
   right: 15%;
-  top: 45px;
+  top: 30px;
   width: 24px;
   height: 24px;
   opacity: 0;
@@ -46,7 +46,7 @@ h1 {
   transition: all 0.1s ease-out;
   position: absolute;
   right: 15%;
-  top: 45px;
+  top: 30px;
   height: 24px;
   width: 24px;
   background-color: transparent;
