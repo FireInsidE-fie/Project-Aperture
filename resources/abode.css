@@ -43,6 +43,7 @@ h1 {
 }
 
 #custom-checkbox {
+  transition: all 0.1s ease-out;
   position: absolute;
   right: 15%;
   top: 45px;
@@ -54,6 +55,7 @@ h1 {
 }
 
 #menu-toggle:checked ~ #custom-checkbox {
+  transition: all 0.3s ease-out;
   position: absolute;
   right: 15%;
   top: 45px;
