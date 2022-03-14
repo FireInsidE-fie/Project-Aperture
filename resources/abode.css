@@ -14,12 +14,9 @@ body {
 }
 
 p,
-li {
-  text-align: justify;
-}
-
+li,
 ul {
-  list-style: none;
+  text-align: justify;
   line-height: 1.5;
 }
 
