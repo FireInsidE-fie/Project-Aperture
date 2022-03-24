@@ -62,14 +62,7 @@ h1 {
 /* Links */
 
 #links {
-  transition: all 0.1s ease-out;
-  position: absolute;
-  right: 15%;
-  border: 1px gray solid;
-  padding: 10px;
-  color: black;
-  background-color: darkgrey;
-  width: 600px;
+  display: none;
 }
 
 #menu-toggle:checked ~ #links {
@@ -81,10 +74,6 @@ h1 {
 #links * {
   margin: 0;
   padding: 0;
-}
-
-#links li {
-  display: block;
 }
 
 /* Skills */
