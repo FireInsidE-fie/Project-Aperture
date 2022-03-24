@@ -66,20 +66,30 @@
           I might add it here!
         </p>
 
-        <ul>
-          <li>
-            <strong>Front-end web development :</strong><br>
+        <details id="front-end">
+          <summary>Front-end web development</summary>
+          <p>
             I am able to make a simple website 
             (in fact, this was entirely created by yours truly!) using <em>HTML</em> and <em>CSS</em>, 
             as well as some <em>JavaScript</em> (check out the links in the top right of this web page)!
-          </li>
-          <li>
-            <strong>Unity :</strong><br>
+          </p>
+        </details>
+
+        <details id="unity">
+          <summary>Game dev</summary>
+          <p>
             I can navigate the Unity interface and understand some of 
             the basic functions of the engine.<br>
             I can implement player controls and basic physics. 
-          </li>
-        </ul>
+          </p>
+        </details>
+
+        <details id="rust">
+          <summary>Rust</summary>
+          <p>
+            I know some basics of using the <a href="https://www.rust-lang.org/">Rust</a> programming language.
+          </p>
+        </details>
       </div>
 
       <div id="working-on">
@@ -98,13 +108,13 @@
     <script>
       const links = document.getElementById("links");
       const linksStyleOn = `
-      display: block; 
-      position: absolute; 
-      right: 15%; 
-      border: 1px gray solid; 
-      padding: 10px; 
-      color: black; 
-      background-color: darkgrey; 
+      display: block;
+      position: absolute;
+      right: 15%;
+      border: 1px gray solid;
+      padding: 10px;
+      color: black;
+      background-color: darkgrey;
       width: 600px;
       transition: all 0.1s ease-out;
       `
