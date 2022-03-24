@@ -49,7 +49,7 @@
 
           Based in Switzerland, I am a 17 years old student in economics that loves to learn new things.
           Some of my current interests include web programming, pixel art and streaming! I love to adapt
-          to new themes, environments and more! I specifically enjoy learning anything about computers, 
+          to new themes, environments and more, but I specifically enjoy learning anything about computers, 
           as they have passionned me since I was little.<br><br>
 
           I am willing to carve myself a path into the freelance world, mainly in web development! I have
@@ -85,7 +85,7 @@
       <div id="working-on">
         <h2>What I've been up to</h2>
         <ul>
-          <li>Learning full-stack web development on CodeCademy</li>
+          <li>Learning full-stack web development </li>
           <li>Learning to make games using Unity</li>
           <li>Learning pixel art (check out my <a href="https://twitter.com/Fireinside_fie">Twitter</a>!)</li>
           <li>Playing video games, obviously</li>
@@ -97,12 +97,23 @@
     <!-- Checkbox script -->
     <script>
       const links = document.getElementById("links");
+      const linksStyleOn = `
+      display: block; 
+      position: absolute; 
+      right: 15%; 
+      border: 1px gray solid; 
+      padding: 10px; 
+      color: black; 
+      background-color: darkgrey; 
+      width: 600px;
+      transition: all 0.1s ease-out;
+      `
 
       function displayLinks() {
         let linksStyle = getComputedStyle(links);
 
         if (linksStyle.display === "none") {
-          links.style = "display: block; position: absolute; right: 15%; border: 1px gray solid; padding: 10px; color: black; background-color: darkgrey; width: 600px;";
+          links.style = linksStyleOn;
         } else {
           links.style = "display: none;";
         }
