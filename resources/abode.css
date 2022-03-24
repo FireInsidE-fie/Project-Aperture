@@ -75,7 +75,19 @@ h1 {
 
 /* Skills */
 
-#skills ul,
+details {
+  border: 1px gray solid;
+  border-radius: 1%;
+  padding: 20px;
+}
+
+details[open] summary {
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+}
+
+/* Working on */
+
 #working-on ul {
   list-style: inside;
 }
