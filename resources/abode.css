@@ -77,7 +77,7 @@ h1 {
 
 details {
   border: 1px gray solid;
-  border-radius: 1%;
+  border-radius: 10px;
   padding: 20px;
 }
 
