@@ -60,16 +60,17 @@ h1 {
 
 #links {
   display: none;
-  /* Remaining style is in the hamburger script */
+}
+
+#menu-toggle:checked ~ #links {
+  display: block;
+  transition: all 0.3s ease-out;
+  background-color: white;
 }
 
 #links * {
   margin: 0;
   padding: 0;
-}
-
-#links li {
-  display: block;
 }
 
 /* Skills */
