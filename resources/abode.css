@@ -81,6 +81,19 @@ h1 {
 #links * {
   margin: 0;
   padding: 0;
+  list-style: none;
+}
+
+#links-main * {
+  color: white;
+}
+
+#links-external * {
+  color: blueviolet;
+}
+
+#links-instagram * {
+  color: salmon;
 }
 
 /* Skills */
