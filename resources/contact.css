@@ -32,6 +32,20 @@ h1 {
   top: 45px;
 }
 
+/* Main */
+
+button#copy-discord-handle {
+  background-color: #121212;
+  color: white;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  position: relative;
+  left: 5px;
+}
+
+/* Footer */
+
 footer {
   margin-bottom: 20px;
   text-align: center;
