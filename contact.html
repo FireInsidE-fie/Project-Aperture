@@ -19,11 +19,19 @@
       </p>
 
       <ul>
-        <li>My Discord handle : FireInsidE#0777</li>
+        <li>My Discord handle : <em id="discord-handle">FireInsidE#0777</em> <button type="button" onclick="copyText('discord-handle')">Copy!</button></li>
         <li>My twitter account : <a href="https://twitter.com/FireInsidE_fie">@FireInsidE_fie</a></li>
         <li>Contact me via <a href="mailto:firefoxSpinnie@protonmail.com">e-mail</a></li>
       </ul>
     </main>
+
+    <script>
+      function copyText(id) {
+        let str = document.getElementById(id);
+        window.getSelection().selectAllChildren(str);
+        document.execCommand("Copy");
+      }
+    </script>
 
     <footer>
       ~fie | Faille. Studios | Aisling Fontaine
