@@ -20,6 +20,13 @@ ul {
   line-height: 1.5;
 }
 
+header,
+#introduction,
+#skills {
+  border-bottom: 1px solid white;
+  padding-bottom: 30px;
+}
+
 /* Header */ 
 
 h1 {
