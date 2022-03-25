@@ -1,3 +1,3 @@
 # portfolioWebsite
 
-The repository for my personnal portfolio website.
+The repository for my personal portfolio website.
