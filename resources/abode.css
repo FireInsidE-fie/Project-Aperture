@@ -24,6 +24,11 @@ a {
   color: crimson;
 }
 
+strong {
+  font-style: normal;
+  color: crimson;
+}
+
 #skills {
   border-bottom: 1px solid white;
   padding-bottom: 30px;
@@ -115,6 +120,10 @@ details[open] summary {
 
 details p {
   margin: 10px 0px 0px 0px;
+}
+
+#skills ul {
+  margin-bottom: 0;
 }
 
 /* Working on */
