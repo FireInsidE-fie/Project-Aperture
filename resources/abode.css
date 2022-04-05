@@ -1,3 +1,11 @@
+/* Phone */
+
+@media only screen and (max-device-width: 500px) {
+  html {
+    grid-template: 1fr / 5% 1fr 5%;
+  }
+}
+
 html {
   font-size: 24px;
   display: grid;
@@ -140,12 +148,4 @@ footer {
   padding: 20px;
   margin: 0;
   border-top: 1px solid white;
-}
-
-/* Phone */
-
-@media screen and (min-width: 500px) {
-  html {
-    color: black;
-  }
 }
