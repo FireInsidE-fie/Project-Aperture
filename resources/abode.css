@@ -141,3 +141,11 @@ footer {
   margin: 0;
   border-top: 1px solid white;
 }
+
+/* Phone */
+
+@media screen and (min-width: 500px) {
+  html {
+    color: black;
+  }
+}
