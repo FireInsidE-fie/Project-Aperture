@@ -6,6 +6,13 @@
   }
 }
 
+@media only screen and (max-device-width: 850px) {
+  #links {
+    width: 100%;
+    right: 0px;
+  }
+}
+
 html {
   font-size: 24px;
   display: grid;
