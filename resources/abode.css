@@ -86,7 +86,7 @@ h1 {
   border: 1px gray solid;
   padding: 10px;
   background-color: #3d3d3d;
-  width: calc(100% - 2px);  /* Remove the border from width */
+  width: calc(100% - 22px);  /* Remove the border and padding from width */
 }
 
 #menu-toggle:checked ~ #links {
