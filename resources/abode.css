@@ -89,15 +89,12 @@ h1 {
   width: calc(100% - 22px);  /* Remove the border and padding from width */
 }
 
-#menu-toggle:checked ~ #links {
-  display: block;
-  background-color: white;
-}
-
 #links * {
   margin: 0;
   padding: 0;
   list-style: none;
+  text-align: center;
+  width: 100%;
 }
 
 #links-main * {
