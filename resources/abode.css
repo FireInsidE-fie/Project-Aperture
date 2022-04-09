@@ -3,7 +3,7 @@
 html {
   font-size: 24px;
   display: grid;
-  grid-template: 1fr / 5% 1fr 5%;
+  grid-template: 1fr / 10% 1fr 10%;
   background-color: #121212;
   color: white;
 }
@@ -11,8 +11,8 @@ html {
 body {
   font-family: 'Chakra Petch', arial, sans-serif;
   margin: 0;
+  padding: 0;
   grid-area: 1 / 2;
-  padding: 0px 5%;
 }
 
 p,
@@ -138,12 +138,15 @@ details p {
 
 #skills ul {
   margin-bottom: 0;
+  padding: 0;
+  list-style: none;
 }
 
 /* Working on */
 
 #working-on ul {
-  list-style: inside;
+  list-style: none;
+  padding: 0;
 }
 
 /* Footer */
