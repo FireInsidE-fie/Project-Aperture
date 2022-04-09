@@ -1,3 +1,5 @@
+/* GLOBAL (PHONE) DESIGN */
+
 html {
   font-size: 24px;
   display: grid;
@@ -9,8 +11,8 @@ html {
 body {
   font-family: 'Chakra Petch', arial, sans-serif;
   margin: 0;
+  padding: 0;
   grid-area: 1 / 2;
-  padding: 0px 5%;
 }
 
 p,
@@ -50,7 +52,7 @@ h1 {
 
 #menu-toggle {
   position: absolute;
-  right: 15%;
+  right: 10%;
   top: 40px;
   width: 24px;
   height: 24px;
@@ -59,9 +61,9 @@ h1 {
 }
 
 #custom-checkbox {
-  transition: all 0.1s ease-out;
+  transition: all 0.2s ease-out;
   position: absolute;
-  right: 15%;
+  right: 10%;
   top: 40px;
   height: 24px;
   width: 24px;
@@ -79,18 +81,30 @@ h1 {
 
 #links {
   display: none;
+  position: absolute;
+  right: 0px;
+  border: 1px gray solid;
+  background-color: #3d3d3d;
+  width: calc(100% - 2px);  /* Remove the border and padding from width */
 }
 
-#menu-toggle:checked ~ #links {
-  display: block;
-  transition: all 0.3s ease-out;
-  background-color: white;
+
+#links-main li,
+#links-external li, #links-external h2,
+#links-instagram li, #links-instagram h3 {
+  border-bottom: 1px solid gray;
 }
+
+#links-instagram *:last-child {
+  border-bottom: none;
+} 
 
 #links * {
   margin: 0;
   padding: 0;
   list-style: none;
+  text-align: center;
+  width: 100%;
 }
 
 #links-main * {
@@ -110,7 +124,7 @@ h1 {
 details {
   border: 1px gray solid;
   border-radius: 10px;
-  padding: 20px;
+  padding: 10px;
 }
 
 details[open] summary {
@@ -124,12 +138,15 @@ details p {
 
 #skills ul {
   margin-bottom: 0;
+  padding: 0;
+  list-style: none;
 }
 
 /* Working on */
 
 #working-on ul {
-  list-style: inside;
+  list-style: none;
+  padding: 0;
 }
 
 /* Footer */

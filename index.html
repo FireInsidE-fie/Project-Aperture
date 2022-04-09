@@ -2,8 +2,10 @@
 <html>
   <head>
     <title>FireInsidE's abode</title>
-    <link rel="stylesheet" href="./resources/abode.css">
-    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">   <!-- Chakra Petch font -->
+    <link rel="stylesheet" href="./resources/abode.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet" />   <!-- Chakra Petch font -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 
   <body>
@@ -11,32 +13,32 @@
       <h1>FIE's abode</h1>
 
       <div id="hamburger-container">
-        <input id="menu-toggle" type="checkbox" onchange="displayLinks()">
+        <input id="menu-toggle" type="checkbox" onchange="displayLinks()" />
         <label for="menu-toggle"></label>
         <span id="custom-checkbox"></span>
       </div>
 
       <div id="links">
         <ul>
-          <div id="links-main">
+          <ul id="links-main">
             <li><a href="./contact.html">Contact me</a></li>
-          </div>
-
-          <div id="links-external">
+          </ul>
+  
+          <ul id="links-external">
             <h2>External links</h2>
             <li><a href="https://github.com/FireInsidE-fie">My Github</a></li>
             <li><a href="https://twitter.com/FireInsidE_fie">Twitter</a></li>
             <li><a href="https://instagram.com/fireinside_fie">Instagram</a></li>
             <li><a href="https://open.spotify.com/user/wlqys33u1f91ryze5fv0ocvx4?si=137492d1823c4826">Spotify</a></li>
             <li><a href="https://twitch.tv/FireInsidE_fie">Twitch</a></li>
-          </div>
-
-          <div id="links-instagram">
+          </ul>
+            
+          <ul id="links-instagram">
             <h3>Instagram projects</h3>
-            <li><a href="https://www.instagram.com/drawin.at.the.campfire/">Drawin' at the Campfire [EN] (On hold)</a></li>
-            <li><a href="https://www.instagram.com/shooting.firestar/">Shooting FireStar [EN] (On hold)</a></li>
+            <li><a href="https://www.instagram.com/drawin.at.the.campfire/">Drawin' at the Campfire [EN] <br />(On hold)</a></li>
+            <li><a href="https://www.instagram.com/shooting.firestar/">Shooting FireStar [EN] <br />(On hold)</a></li>
             <li><a href="https://www.instagram.com/fireoutside.fie/">FireOutsidE [FR]</a></li>
-          </div>
+          </ul>          
         </ul>
       </div>
     </header>
@@ -79,7 +81,7 @@
           <strong>Projects :</strong>
           <ul>
             <li>
-              This website : 
+              <strong>This website :</strong> 
               I made this entire website from head to toe! It may not look like much for now (lots of
               black and white) but I have got big projects for the future of this website. There will
               be many different things here, ranging from this professional section to mini-games, 
@@ -140,16 +142,7 @@
     <!-- Checkbox script -->
     <script>
       const links = document.getElementById("links");
-      const linksStyleOn = `
-      display: block;
-      position: absolute;
-      right: 15%;
-      border: 1px gray solid;
-      padding: 10px;
-      background-color: #3d3d3d;
-      width: 600px;
-      transition: all 0.1s ease-out;
-      `
+      const linksStyleOn = `display: flex;`
 
       function displayLinks() {
         let linksStyle = getComputedStyle(links);
