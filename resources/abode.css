@@ -88,12 +88,16 @@ h1 {
   width: calc(100% - 2px);  /* Remove the border and padding from width */
 }
 
-#links-main li,
-#links-external li,
-#links-instagram li {
-  border-top: 1px solid green;
-  border-bottom: 1px solid green;
+
+#links-main *,
+#links-external *,
+#links-instagram * {
+  border-bottom: 1px solid gray;
 }
+
+#links-instagram *:last-child {
+  border-bottom: none;
+} 
 
 #links * {
   margin: 0;
