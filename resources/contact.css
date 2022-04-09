@@ -1,7 +1,7 @@
 html {
   font-size: 24px;
   display: grid;
-  grid-template: 1fr / 10% 1fr 10%;
+  grid-template: 1fr / 5% 1fr 5%;
   background-color: #121212;
   color: white;
 }
