@@ -89,9 +89,9 @@ h1 {
 }
 
 
-#links-main *,
-#links-external *,
-#links-instagram * {
+#links-main li,
+#links-external li, #links-external h2,
+#links-instagram li, #links-instagram h3 {
   border-bottom: 1px solid gray;
 }
 
