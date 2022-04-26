@@ -158,3 +158,12 @@ footer {
   margin: 0;
   border-top: 1px solid white;
 }
+
+/* PC VERSION */
+
+@media only screen and (min-width: 720px) {
+  #working-on ul,
+  #skills ul {
+    list-style: circle inside;
+  }
+}
