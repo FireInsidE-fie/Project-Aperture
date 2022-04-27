@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Le portfolio de FIE</title>
+    <link rel="stylesheet" href="../resources/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">   <!-- Chakra Petch font -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+    <header>
+      <h1>Me contacter</h1>
+      <a id="go-back-link" href="./index-fr.html">Retour</a>
+    </header>
+
+    <main>
+      <p>
+        Vous pouvez me contacter par e-mail, ou mieux, en utilisant un de mes réseaux sociaux,
+        de préférence Discord ou Twitter.
+      </p>
+
+      <ul>
+        <li>Mon pseudo Discord : <span id="discord-handle">FireInsidE#0777</span> <button id="copy-discord-handle" type="button" onclick="copyText('discord-handle')">Copier!</button></li>
+        <li>Mon compte Twitter : <a target="_blank" href="https://twitter.com/FireInsidE_fie">@FireInsidE_fie</a></li>
+        <li>Me contacter par <a href="mailto:firefoxSpinnie@protonmail.com">e-mail</a></li>
+      </ul>
+    </main>
+
+    <script>
+      function copyText(id) {
+        let str = document.getElementById(id);
+        window.getSelection().selectAllChildren(str);
+        document.execCommand("Copy");
+      }
+    </script>
+
+    <footer>
+      ~fie | Faille. Studios | Aisling Fontaine
+    </footer>
+  </body>
+</html>
